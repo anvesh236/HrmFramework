@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HrmAutomation]">
+  <test name="TestScripts">
+    <classes>
+      <class name="TestScripts.Tc1_Login"/>
+      <class name="TestScripts.TC2_AddEmp"/>
+    </classes>
+  </test> <!-- TestScripts -->
+  <test name="TestScripts(failed)">
+    <classes>
+      <class name="TestScripts.TC2_AddEmp">
+        <methods>
+          <include name="AddEmployee"/>
+        </methods>
+      </class> <!-- TestScripts.TC2_AddEmp -->
+    </classes>
+  </test> <!-- TestScripts(failed) -->
+</suite> <!-- Failed suite [HrmAutomation] -->

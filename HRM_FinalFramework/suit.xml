@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HrmAutomation">
+
+	
+	<test name="TestScripts">
+		<classes>
+			<class name="TestScripts.Tc1_Login"></class>
+			<class name="TestScripts.TC2_AddEmp"></class>
+		</classes>
+	</test>
+
+</suite>
