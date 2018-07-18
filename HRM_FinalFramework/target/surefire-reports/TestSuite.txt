@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 141.155 sec - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.267 sec <<< FAILURE! - in TestSuite
+verifyOrangeHRM(TestScripts.Tc1_Login)  Time elapsed: 0.067 sec  <<< FAILURE!
+java.io.FileNotFoundException: D:\Eclipse\HRM_FinalFramework\src\main\java\ElementLocators\Login.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at BusinessFunctions.Login.<init>(Login.java:17)
+	at TestScripts.Tc1_Login.verifyOrangeHRM(Tc1_Login.java:10)
+
+AddEmployee(TestScripts.TC2_AddEmp)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: D:\Eclipse\HRM_FinalFramework\src\main\java\ElementLocators\Login.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at BusinessFunctions.Login.<init>(Login.java:17)
+	at TestScripts.TC2_AddEmp.AddEmployee(TC2_AddEmp.java:10)
+
